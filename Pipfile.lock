@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8a25e1a280a83a9da9dae6e616195b446cb057159a0e2f7fdb74d904bef51ea7"
+            "sha256": "de15ca2b6660fca3073b9cc9734bf38e2387076adc200bab7e04d41e87684423"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -29,6 +29,12 @@
         ]
     },
     "default": {
+        "easyprocess": {
+            "hashes": [
+                "sha256:94e241cadc9a46f55b5c06000df85618849602e7e1865b8de87576b90a22e61f"
+            ],
+            "version": "==0.2.3"
+        },
         "pillow": {
             "hashes": [
                 "sha256:f0d4433adce6075efd24fc0285135248b0b50f5a58129c7e552030e04fe45c7f",
@@ -82,6 +88,26 @@
                 "sha256:c73a0c774f7f4487a573e9793257afdf1c504ac8a2c4c8e6b0e77176ddc5a539"
             ],
             "version": "==0.2.2"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:4965ed170bf51c347a89820e8050655e9c25db3837db6602e906b6d850fad85c",
+                "sha256:509736185257111613009974e666568a1b031b028b61b500ef1ab4ee780089d5"
+            ],
+            "version": "==0.8.2"
+        },
+        "pyvirtualdisplay": {
+            "hashes": [
+                "sha256:012883851a992f9c53f0dc6a512765a95cf241bdb734af79e6bdfef95c6e9982"
+            ],
+            "version": "==0.2.1"
+        },
+        "selenium": {
+            "hashes": [
+                "sha256:1372101ad23798462038481f92ba1c7fab8385c788b05da6b44318f10ea52422",
+                "sha256:b8a2630fd858636c894960726ca3c94d8277e516ea3a9d81614fb819a5844764"
+            ],
+            "version": "==3.12.0"
         }
     },
     "develop": {}

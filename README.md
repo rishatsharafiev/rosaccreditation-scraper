@@ -31,3 +31,37 @@ pipenv shell --python 3.6
 ```
 pipenv install
 ```
+
+### Install Java
+```
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install default-jdk -y
+java -version
+```
+
+### Download Selenium Standalone Server
+https://www.seleniumhq.org/download/
+
+### Run Selenium Standalone Server
+```
+java -jar selenium-server-standalone-*.jar
+```
+
+### Selenium Python Docs
+https://selenium-python.readthedocs.io
+
+
+### Install requirements for pyvirtualdisplay
+```
+sudo apt-get install xvfb -y
+```
+
+### Install Drivers
+PhantomJS (Deprecated)
+http://phantomjs.org/download.html
+
+Others
+https://selenium-python.readthedocs.io/installation.html#downloading-python-bindings-for-selenium
+
+### Selenium Grid
+http://automation-remarks.com/nastraivaiem-selenium-grid-za-5-minut/
