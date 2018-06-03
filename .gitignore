@@ -108,3 +108,6 @@ ENV/
 !/assets/static/*.gitkeep
 /assets/media/*
 !/assets/media/*.gitkeep
+
+links.json
+output.csv
